@@ -35,7 +35,7 @@ All other teammates, type `git pull origin main` to sync your local files up wit
 
 # Make a Change
 
-We have just made a change to our code and pushed those directly to our shared repository. But when collaborating, this can get very messy. What we really want to do is make our own **branch** for whatever task we're working on - a separate version of the project that's forked off the main branch. Then we make all our changes in that branch, and when we're finished and we've confirmed that everything is OK, then we merge the branch back into the main branch.
+We have just updated our project and pushed the new version directly to our shared repository. But when collaborating, this can get very messy. What we really want to do is make our own **branch** for whatever task we're working on - a separate version of the project that's forked off the main branch. Then we make all our changes in that branch, and when we're finished and we've confirmed that everything is OK, then we merge the branch back into the main branch.
 
 One teammate, type `git branch made-rose-color-pink` in the terminal, which will create a new branch. Then type `git checkout made-rose-color-pink` to switch into that branch. Note: you could combine these steps with the single command `git checkout -b made-rose-color-pink`.
 
