@@ -1,4 +1,8 @@
 
+# Welcome to GIT
+
+Git is a version control system. It helps us collaborate and back things up in case things go badly. This simple group project will let you explore the essential functions and flow of Git and Github without worrying about any actual code issues. You're expected to work together to understand the concepts and get everyone through the process. Instructors will not be walking you through this, but please reach out if you're stumped with a problem or have a question that nobody in the room can answer. One of us will come to your breakout room to help you.
+
 # Set up the Repository on Github
 
 One person, navigate to github.com, log in and create a repository in the Nashville Software School organization. Be sure it is public, and check the checkbox to include a readme.md file
