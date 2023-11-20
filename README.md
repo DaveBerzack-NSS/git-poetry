@@ -37,11 +37,11 @@ All other teammates, type `git pull origin main` to sync your local files up wit
 
 We have just updated our project and pushed the new version directly to our shared repository. But when collaborating, this can get very messy. What we really want to do is make our own **branch** for whatever task we're working on - a separate version of the project that's forked off the main branch. Then we make all our changes in that branch, and when we're finished and we've confirmed that everything is OK, then we merge the branch back into the main branch.
 
-One teammate, type `git branch made-rose-color-pink` in the terminal, which will create a new branch. Then type `git checkout made-rose-color-pink` to switch into that branch. Note: you could combine these steps with the single command `git checkout -b made-rose-color-pink`.
+One teammate, type `git branch make-roses-pink` in the terminal, which will create a new branch. Then type `git checkout make-roses-pink` to switch into that branch. Note: you could combine these steps with the single command `git checkout -b make-roses-pink`.
 
-Next, replace the word "red" in the first line with "pink" and save the file. In the terminal type `git add .`, then `git commit -m "roses are now pink"`, then `git push origin made-rose-color-pink` to add, commit and then push the changes, still staying within our new branch.
+Next, replace the word "red" in the first line with "pink" and save the file. In the terminal type `git add .`, then `git commit -m "roses are now pink"`, then `git push origin make-roses-pink` to add, commit and then push the changes, still staying within our new branch.
 
-Now, anyone should be able to view the new branch with its changes. Refresh the github page (with the **code** tab selected at the top) and you should have a dropdown with **main** selected. Clicking that dropdown, you can now select the new `made-rose-color-pink` branch to view the files, and click on the story.txt file to see its updated contents. 
+Now, anyone should be able to view the new branch with its changes. Refresh the github page (with the **code** tab selected at the top) and you should have a dropdown with **main** selected. Clicking that dropdown, you can now select the new `make-roses-pink` branch to view the files, and click on the story.txt file to see its updated contents. 
 
 Also, at the top of the code overview page, there should be a new message with a green **Compare and Pull Request** button. One teammate (typically whoever made these changes) should click this button to look over all the changes. This page shows a **diff** view, which uses color-coded formatting to compare the differences between the versions. If this looks OK, click **Create Pull Request** to start merging these changes back to the main branch.
 
